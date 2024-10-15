@@ -1,20 +1,20 @@
 // Home Page
+import './App.css'
 
 const App = () => {
   return (
     <>
       <h1>Portfolio</h1>
       <h2>Melissa Griffin</h2>
-      <h3>Junior Software Engineer</h3>
-      <p>
-      💾 Junior Software Engineer 
-    🎨 Artist, Digital Media & Drawing
-    💡 Creative Problem Solver
-    ⭐️ Enthusiastic Team Player 
-    📚 Bookworm
-    🔮 D&D Dungeon Master
-    🕹️ Gaming Enthusiast 
-      </p>
+      <ul className="qualities">
+      <li>💾 Junior Software Engineer </li>
+      <li>🎨 Artist, Digital Media & Drawing</li>
+      <li>💡 Creative Problem Solver</li>
+      <li>⭐️ Enthusiastic Team Player</li>
+      <li>📚 Bookworm</li>
+      <li>🔮 D&D Dungeon Master</li>
+      <li>🕹️ Gaming Enthusiast</li>
+      </ul>
       <div className="placeholder"></div>
     </>
   );
