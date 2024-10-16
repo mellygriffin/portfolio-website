@@ -1,21 +1,18 @@
-// Home Page
+import { useState } from 'react';
 import './App.css'
 
 const App = () => {
+
   return (
     <>
-      <h1>Portfolio</h1>
-      <h2>Melissa Griffin</h2>
-      <ul className="qualities">
-      <li>💾 Junior Software Engineer </li>
-      <li>🎨 Artist, Digital Media & Drawing</li>
-      <li>💡 Creative Problem Solver</li>
-      <li>⭐️ Enthusiastic Team Player</li>
-      <li>📚 Bookworm</li>
-      <li>🔮 D&D Dungeon Master</li>
-      <li>🕹️ Gaming Enthusiast</li>
-      </ul>
-      <div className="placeholder"></div>
+    <nav id="side-navbar">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/projects">Projects</a>
+    </nav>
+    <main>
+      <h1>Portfolio Site</h1>
+    </main>
     </>
   );
 };
