@@ -5,14 +5,8 @@ const App = () => {
 
   return (
     <>
-    <nav id="side-navbar">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/projects">Projects</a>
-    </nav>
-    <main>
-      <h1>Portfolio Site</h1>
-    </main>
+    <NavBar />
+    <h1>App Page</h1>
     </>
   );
 };
