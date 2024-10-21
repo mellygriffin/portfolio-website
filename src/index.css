@@ -14,12 +14,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#side-navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 a {
   font-weight: 500;
   color: #646cff;
