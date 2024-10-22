@@ -8,7 +8,7 @@
 
   ##### Melissa Griffin
 
-  ## :bangband: WAIT
+  ## :bangbang: WAIT :bangbang:
 
 Woah! Looks like you found the README! This project isn't complete yet so please remain patient as tweaks to the site are made!
 
