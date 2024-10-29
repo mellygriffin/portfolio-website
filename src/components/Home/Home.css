@@ -1,10 +1,7 @@
-body {
+.content {
     display: flex;
     flex-direction: row;
-}
-
-.content {
-    
+    justify-content: center;
     color: red;
 }
 
