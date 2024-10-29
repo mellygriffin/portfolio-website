@@ -3,11 +3,11 @@ nav {
     top: 0;
     left: 0;
     line-height: 5;
-    color: white;
-    background-color: black;
+    color: #453873;
     width: 100px;
     height: 100vh;
     margin-right: 20px;
+    background-color: #A496D9;
   }
   
   #navlist {

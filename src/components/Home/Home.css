@@ -1,8 +1,8 @@
 .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    color: red;
+    color: #4067b5;
 }
 
 h2 {
