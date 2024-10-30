@@ -10,15 +10,15 @@ const Projects = () => {
         <h2>Projects</h2>
         <div class="projects">
             <ul>
-                <li>
+                <li class="listitem">
                 <img src={codeScreen} width="80%"></img>
                 <p class="desc">Here is where the description will go.</p>
                 </li>
-                <li>
+                <li class="listitem">
                 <img src={discScreen} width="80%"></img>
                 <p class="desc">Here is where the description will go.</p>
                 </li>
-                <li>
+                <li class="listitem">
                 <img src={bagScreen} width="80%"></img>
                 <p class="desc">Here is where the description will go.</p>
                 </li>
