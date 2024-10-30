@@ -3,6 +3,7 @@ const About = () => {
     return (
         <>
         <h2>Melissa Griffin</h2>
+        <img></img>
         <ul className="qualities">
         <li>💾 Junior Software Engineer </li>
         <li>🎨 Artist, Digital Media & Drawing</li>
