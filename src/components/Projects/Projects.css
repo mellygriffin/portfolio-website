@@ -24,7 +24,7 @@ ul {
 }
 
 img {
-    align-items: stretch;
+    max-width: 40rem;
     border: 5px solid #ffff;
 }
 
