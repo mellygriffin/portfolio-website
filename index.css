@@ -1,61 +1,34 @@
+/* Mobile */
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    left: 0;
     margin: 0;
-    padding-left: 15%;
-    padding-right: 5%;
+    padding-top: 5rem;
+    padding-left: 1rem;
     background-color: #ACCAF2;
 }
 
- /*Tablets*/
- @media only screen and (min-width: 769px) and (max-width:1024px) and (orientation: landscape) {
+/* Larger Screens (e.g., Laptops, Desktops) */
+@media only screen and (min-width: 1025px) {
     body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: Arial, Helvetica, sans-serif;
-        top: 0;
-        left: 0;
-        margin: 0;
-        padding-left: 20%;
+        padding-left: 15%;
         padding-right: 5%;
-        background-color: #ACCAF2;
     }
 }
 
 
 /* Tablet Portrait */
-@media only screen and (min-width: 650px) and (max-width:768px){
+@media only screen and (min-width: 650px) and (max-width: 768px) {
     body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: Arial, Helvetica, sans-serif;
-        top: 0;
-        left: 0;
-        margin: 0 0 0 0;
         padding-left: 20%;
-        padding-right: 5%;
-        background-color: #ACCAF2;
     }
 }
 
-/*Mobile */
-@media only screen and (min-width:100px) and (max-width:640px){
-   body {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       font-family: Arial, Helvetica, sans-serif;
-       top: 0;
-       left: 0;
-       margin: 50px 0 0 0;
-       padding-left: 5%;
-       padding-right: 5%;
-       background-color: #ACCAF2;
-   }
+/* Tablets Landscape */
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        padding-left: 20%;
+    }
 }
