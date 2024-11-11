@@ -1,3 +1,11 @@
-.qualities {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qualities li {
+    display: block;
+    list-style: none;
     color: rgb(82, 79, 79);
 }
