@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <>
         <h2>Projects</h2>
-        <div class="projects">
+        <div className="projects">
             <ul>
                 <li class="listitem">
                 <img src={codeScreen} width="80%"></img>
