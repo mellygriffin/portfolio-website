@@ -12,7 +12,8 @@ const Projects = () => {
             <ul>
                 <li class="listitem">
                 <img src={codeScreen} width="80%"></img>
-                <p class="desc">Here is where the description will go.</p>
+                <p class="desc">Code for Love takes you on the journey to whoo your blind date who just happens to be a computer! Choose from conversation categories and do your best to impress your date by selecting your answers.
+                </p>
                 </li>
                 <li class="listitem">
                 <img src={discScreen} width="80%"></img>

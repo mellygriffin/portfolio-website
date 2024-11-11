@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding-top: 5rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #ACCAF2;
 }
 
@@ -20,15 +21,16 @@ body {
 
 
 /* Tablet Portrait */
-@media only screen and (min-width: 650px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
         padding-left: 20%;
     }
 }
 
 /* Tablets Landscape */
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     body {
         padding-left: 20%;
+        padding-right: 15%;
     }
 }
