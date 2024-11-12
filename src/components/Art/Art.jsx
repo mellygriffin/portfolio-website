@@ -2,7 +2,8 @@ const Art = () => {
 
     return (
         <>
-        <h2>Artwork</h2>
+        <h2>Digital Illustrations</h2>
+        <img></img>
         </>
     )
 }
