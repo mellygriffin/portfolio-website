@@ -1,0 +1,13 @@
+.artwork {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 20px;
+}
