@@ -1,5 +1,6 @@
 import './Art.css';
 import { Gallery } from 'react-grid-gallery';
+import { Link } from 'react-router-dom';
 
 const Art = () => {
 
@@ -18,6 +19,7 @@ const Art = () => {
         <img></img>
         </div>
         </div>
+        <Link to="https://www.npmjs.com/package/react-grid-gallery" > React Grid Gallery (c) Ben Howell </Link> 
         </>
     )
 }
