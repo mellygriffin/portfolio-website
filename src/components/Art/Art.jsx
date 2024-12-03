@@ -1,4 +1,5 @@
 import './Art.css';
+import { Gallery } from 'react-grid-gallery';
 
 const Art = () => {
 
@@ -7,9 +8,7 @@ const Art = () => {
         <div className="artwork">
         <h2>Digital Illustrations</h2>
         <div className="gallery">
-        <img></img>
-        <img></img>
-        <img></img>
+            <Gallery />
         </div>
         <p></p>
         <h2>Sequential Art</h2>
