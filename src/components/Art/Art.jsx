@@ -1,5 +1,6 @@
 import './Art.css';
 import { Gallery } from 'react-grid-gallery';
+import images from '../Gallery/Gallery.jsx';
 import { Link } from 'react-router-dom';
 
 const Art = () => {
@@ -9,7 +10,7 @@ const Art = () => {
         <div className="artwork">
         <h2>Digital Illustrations</h2>
         <div className="gallery">
-            <Gallery />
+            <Gallery images={images} />
         </div>
         <p></p>
         <h2>Sequential Art</h2>
