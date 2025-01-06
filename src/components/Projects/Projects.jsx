@@ -1,7 +1,7 @@
 import './Projects.css'
-import codeScreen from '../../assets/images/Code-for-Love-ss.png';
-import discScreen from '../../assets/images/GameInfo_ss.png';
-import bagScreen from '../../assets/images/boh-home.png';
+import codeScreen from '/assets/images/Code-for-Love-ss.png';
+import discScreen from '/assets/images/GameInfo_ss.png';
+import bagScreen from '/assets/images/boh-home.png';
 
 const Projects = () => {
 

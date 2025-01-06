@@ -10,10 +10,6 @@ const images = [
       src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
       width: 320,
       height: 212,
-      tags: [
-         { value: "Ocean", title: "Ocean" },
-         { value: "People", title: "People" },
-      ],
       alt: "Boats (Jeshu John - designerspics.com)",
    },
    {
