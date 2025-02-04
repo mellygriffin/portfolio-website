@@ -2,10 +2,12 @@ import './Art.css';
 import Gallery from '../Gallery/Gallery.jsx';
 import images from '../Gallery/Gallery.jsx';
 import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 
 const Art = () => {
+    
+     return (
 
-    return (
         <>
         <div className="artwork">
         <h2>Digital Illustrations</h2>
