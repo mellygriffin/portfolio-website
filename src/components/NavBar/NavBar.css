@@ -1,3 +1,9 @@
+.tiny5-regular {
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #navlist {
     position: fixed;
     top: 0;
@@ -14,8 +20,9 @@
   }
 
   a {
-    font-family: "Dangrek";
+    font-family: "Tiny5";
     font-weight: bold;
+    font-size: x-large;
     color: #ffffff;
     text-decoration: inherit;
   }
