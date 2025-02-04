@@ -8,6 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 2rem solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 800px;
+    background-color: white;
 }
 
 h2 {
