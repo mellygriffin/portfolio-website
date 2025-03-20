@@ -10,7 +10,7 @@ const Art = () => {
 
         <>
         <div className="artwork">
-        <h2>Digital Illustrations</h2>
+        <h2 className="illustrations">Digital Illustrations</h2>
         <div className="gallery">
             <Gallery images={images}/>
         </div>
@@ -22,7 +22,6 @@ const Art = () => {
         <img></img>
         </div>
         </div>
-        <Link to="https://www.npmjs.com/package/react-grid-gallery" > React Grid Gallery (c) Ben Howell </Link> 
         </>
     )
 }

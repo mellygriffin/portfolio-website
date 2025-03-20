@@ -2,11 +2,27 @@ import React, { useState } from 'react';
 
 const images = [
    {
-      src: '/assets/images/gallery/eyes-swordtember-2021.png',
-      alt: 'Swordtember',
+      src: '/assets/images/gallery/mermay-love-sigJPG.jpg',
+      alt: 'Image of a shark-themed merman giving an affectionate gift of a jellyfish to a ribbon eel-themed mermaid.',
    },
    {
       src: '/assets/images/gallery/eyes-swordtember-2021.png',
+      alt: 'Another',
+   },
+   {
+      src: '/assets/images/gallery/dnd-group-chibi.png',
+      alt: 'Another',
+   },
+   {
+      src: '/assets/images/gallery/Marax.png',
+      alt: 'Swordtember',
+   },
+   {
+      src: '/assets/images/gallery/Okami_Amaterasu.jpg',
+      alt: 'Another',
+   },
+   {
+      src: '/assets/images/gallery/dnd-forest-walk.png',
       alt: 'Another',
    },
 ];
@@ -35,7 +51,7 @@ const Gallery = () => {
                   alt={image.alt}
                   onClick={() => openModal(image)}
                   style={{
-                     width: '200px',
+                     width: '150px',
                      height: '200px',
                      cursor: 'pointer',
                      transition: 'transform 0.3s ease',
