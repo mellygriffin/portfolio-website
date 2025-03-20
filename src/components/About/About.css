@@ -7,5 +7,10 @@ body {
 .qualities li {
     display: block;
     list-style: none;
-    color: rgb(82, 79, 79);
+    color: rgb(88, 42, 114);
+    line-height: 30px;
+}
+
+.me {
+    width: 300px;
 }

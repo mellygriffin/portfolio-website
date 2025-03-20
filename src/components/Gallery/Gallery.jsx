@@ -7,23 +7,23 @@ const images = [
    },
    {
       src: '/assets/images/gallery/eyes-swordtember-2021.png',
-      alt: 'Another',
+      alt: 'Image of a sword made of inky shadows and eyes with slitted pupils.',
    },
    {
       src: '/assets/images/gallery/dnd-group-chibi.png',
-      alt: 'Another',
+      alt: 'Image of a Dungeons and Dragons group around a table with a map readying for their adventure.',
    },
    {
       src: '/assets/images/gallery/Marax.png',
-      alt: 'Swordtember',
+      alt: 'Image of a demonic man with gray skin, long white hair and a cigaerette blowing red smoke.',
    },
    {
       src: '/assets/images/gallery/Okami_Amaterasu.jpg',
-      alt: 'Another',
+      alt: 'Image depicting fanart of Okami Amaterasu from the video game Okami as a human woman.',
    },
    {
       src: '/assets/images/gallery/dnd-forest-walk.png',
-      alt: 'Another',
+      alt: 'Image of a Dungeons and Dragons party trekking through the woods in the evening with fireflies hovering around.',
    },
 ];
 

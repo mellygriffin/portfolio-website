@@ -3,14 +3,14 @@
     flex-direction: column;
 }
 
-.illustrations {
+/* .illustrations {
     border-top: 2rem solid;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 50px;
     max-width: 800px;
     min-height: 50px;
     background-color: white;
-}
+} */
 
 .gallery {
     display: flex;
